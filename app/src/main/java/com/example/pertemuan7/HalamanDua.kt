@@ -48,7 +48,7 @@ fun HalamanDua(
                     Text(item.first.uppercase())
                     Text(text = item.second.toString(), fontWeight = FontWeight.Bold)
                 }
-                Divider(thickness = dimensionResource(R.dimen.padding_small))
+                Divider(thickness = dimensionResource(R.dimen.thickness_divider))
             }
             Spacer(modifier = Modifier.height(dimensionResource(id = R.dimen.padding_small)))
             FormatLabelHarga(

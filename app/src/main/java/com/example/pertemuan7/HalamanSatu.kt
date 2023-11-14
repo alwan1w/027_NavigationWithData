@@ -71,7 +71,7 @@ fun HalamanSatu(
                 }
             }
             Divider(
-                thickness = dimensionResource(R.dimen.padding_small),
+                thickness = dimensionResource(R.dimen.thickness_divider),
                 modifier = Modifier.padding(bottom = dimensionResource(R.dimen.padding_medium))
             )
             Row (
@@ -101,7 +101,7 @@ fun HalamanSatu(
                 }
             }
             Divider(
-            thickness = dimensionResource(R.dimen.padding_small),
+            thickness = dimensionResource(R.dimen.thickness_divider),
             modifier = Modifier.padding(bottom = dimensionResource(R.dimen.padding_medium))
             )
             Row(
